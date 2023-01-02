@@ -15,24 +15,34 @@
 <body>
 
   <!--NavBar-->
-
-  <div class="d-flex justify-content-between text-light bg-dark">
+  <div class="d-flex mb-4 d-flex justify-content-between bg-black">
+    <!--Izquierda-->
     <div class="p-2">
-      <a href="#" >
-        <img width="75px" height="35px"
+      <img height="45rem" width="90rem"
         src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lifewire.com%2Fthmb%2FoGvZDyjf75TqEJFzi24w8EsUO_4%253d%2F2000x1333%2Ffilters%3Afill(auto%252c1)%2Fyoutubelogo-5c64435446e0fb000184a47e.jpg&f=1&nofb=1&ipt=2b3e5a9e11f76b9a6d074effee117b619cc30df93fee15fa6077630dc1e85759&ipo=images">
-      </a>
     </div>
-    <div class="p-2">Flex item</div>
-    <div class="p-2">Flex item</div>
+    <!--Centro-->  
+    <div class="p-2">
+      <form class="d-inline-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    <!--Derecha-->
+    <div class="p-2">
+      <div class="icons">
+        <i class="fa-sharp fa-solid fa-user "></i>
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-sharp fa-solid fa-record-vinyl "></i>
+      </div>
+    </div>
   </div>
-
-  <!--END NavBar-->
+  <!--End NavBar-->
 
   <!--Container-->
   <div class="container bg-dark ">
     <div class="row">
-      <div class="col-7 bg-light">
+      <div class="col-md-7 bg-dark">
         <div id="video">
           <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -50,24 +60,32 @@
         </div>
       </div>
       <!---->
-      <div class="col-3">
-        <a href="#">
-          <div class="container-fluid bg-light ">
-            <div class="row ">
-              <div class="col-4">
-                <div class="card">
-                  <img class="card-img-top" alt="..."
+
+
+
+      <div class="col-md-3 ms-auto bg-light">     
+          <div class="container">
+            <a href="#">
+              <div class="col-md-4">
+                  <div class="position-absolute">
+                    <div class="img">
+                      <img class="card-img" alt="..." id="sug"
                     src="https://i.ytimg.com/vi/ZEW7nRoX1jc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBi57hU7mJken28ARXOFiN9eWLfQ">
-                </div>
+                    </div>
+                  </div>
               </div>
-              <div class="col-4">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+              <div class="col-md-4 ms-auto">
+                <div class="position-absolute">
+                  <div class="context">
+                    <p>Boris Brejcha</p>
+                  </div>
                 </div>
-              </div>
+             
             </div>
+          </a>
           </div>
-        </a>
+      
+        
       </div>
     </div>
   </div>
