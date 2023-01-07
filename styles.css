@@ -8,7 +8,7 @@ body {
 }
 
 .d-flex{
-    height: 50px;
+    height: 30px;
 }
 
 
@@ -19,15 +19,19 @@ body {
 
 }
 
-.col-7{
-    margin-left: 3%;
-    width:70%;
-    height: 100%px;
+
+
+.col-sm-8{
+   height: 1000px;
 }
 
 .img{
     height: 100%;
     width: 100%;
+}
+
+img{
+    border-radius: 10%;
 }
 
 .col-5{
@@ -41,9 +45,7 @@ iframe{
 
 @media screen and (max-width: 1080px) {
   
-    iframe{
-        height: 100%;
-    }
+  
 }
 
 
